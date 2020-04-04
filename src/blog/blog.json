@@ -1,0 +1,7 @@
+{
+  "tags": ["posts"],
+  "layout": "site.njk",
+  "eleventyNavigation": {
+    "parent": "Blog"
+  }
+}

@@ -1,0 +1,68 @@
+@import "reset.css";
+@import "music.css";
+
+:root {
+  --foreground: black;
+  --background: white;
+  font-size: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #eee;
+    --background: #111;
+  }
+}
+
+body {
+  --site-spacing: 6em;
+
+  background: var(--background);
+  color: var(--foreground);
+  padding-inline-start: var(--site-spacing);
+  padding-inline-end: var(--site-spacing);
+
+  font-family: system-ui;
+
+  display: flex;
+  align-items: flex-start;
+}
+
+body > * {
+  padding-block-start: var(--site-spacing);
+  padding-block-end: var(--site-spacing);
+}
+
+body > main {
+  margin-inline-start: var(--site-spacing);
+  flex: 1 0 0;
+}
+
+body > nav {
+  position: sticky;
+  top: 0px;
+}
+
+body > nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body > nav a {
+  --spacing: 0.6em;
+
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding-block-start: var(--spacing);
+  padding-block-end: var(--spacing);
+}
+
+main > * + * {
+  margin-block-start: 2em;
+}
+
+main p {
+  line-height: 1.6;
+}

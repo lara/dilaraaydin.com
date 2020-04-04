@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">
+          <svg width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path 
+              d="M18 22H1V10L9.5 2L18 10V22Z" 
+              stroke="currentColor" 
+              {% if page.url == "/" %}
+                fill="currentColor"
+              {% endif %}
+              stroke-width="2"
+            />
+          </svg>
+        </a>
+      </li>
+
+      {%- for item in (collections.all | eleventyNavigation) %}
+        <li{% if item.url == page.url %} class="active"{% endif %}>
+          <a href="{{ item.url | url }}">{{ item.title }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
+  </nav>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+</body>
+</html>
