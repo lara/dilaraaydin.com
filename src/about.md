@@ -2,6 +2,6 @@
 layout: site.njk
 title: Dilara Aydin
 eleventyNavigation:
-  key: About
+  key: about
   order: 0
 ---

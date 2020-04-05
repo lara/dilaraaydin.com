@@ -15,7 +15,7 @@
 }
 
 body {
-  --site-spacing: 6em;
+  --site-spacing: 4em;
 
   background: var(--background);
   color: var(--foreground);
@@ -29,12 +29,12 @@ body {
 }
 
 body > * {
-  padding-block-start: var(--site-spacing);
-  padding-block-end: var(--site-spacing);
+  padding-block-start: calc(var(--site-spacing) * 1.5);
+  padding-block-end: calc(var(--site-spacing) * 1.5);
 }
 
 body > main {
-  margin-inline-start: var(--site-spacing);
+  margin-inline-start: calc(var(--site-spacing) * 3);
   flex: 1 0 0;
 }
 
