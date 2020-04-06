@@ -1,18 +1,19 @@
 backend:
   name: git-gateway
+  repo: lara/dilaraaydin.com
   branch: master
 
 publish_mode: editorial_workflow
-site_url: "https://example.com"
+site_url: "https://dilaraaydin.com"
 media_folder: "src/images"
 public_folder: "/images"
 
 collections:
   - name: "blog"
     label: "Posts"
-    folder: "src/blog/posts"
+    folder: "src/blog"
     slug: "{{slug}}"
-    preview_path: "blog/posts/{{slug}}"
+    preview_path: "blog/{{slug}}"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }

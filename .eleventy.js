@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
     "svg",
     "css",
     "tif",
+    "yml",
   ])
 
   return {
