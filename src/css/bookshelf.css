@@ -1,3 +1,7 @@
+main.bookshelf {
+  flex: initial;
+}
+
 .bookshelf h3 {
   text-align: center;
   margin-block-end: 2em;
