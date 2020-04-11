@@ -11,7 +11,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #eee;
-    --background: #111;
+    --background: rgb(43, 43, 43);
   }
 }
 
@@ -65,8 +65,8 @@ body > nav a {
   padding-block-end: var(--spacing);
 }
 
-body nav .active {
-  font-weight: bolder;
+body nav .active a {
+  font-weight: 800;
 }
 
 main > * + * {

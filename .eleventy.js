@@ -4,7 +4,8 @@ const navigation = require("@11ty/eleventy-navigation")
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(errorOverlay)
   eleventyConfig.addPlugin(navigation)
-  eleventyConfig.addPassthroughCopy("images")
+  eleventyConfig.addPassthroughCopy("src/images")
+  eleventyConfig.addPassthroughCopy("src/js")
 
   eleventyConfig.setTemplateFormats([
     "html",
