@@ -1,32 +1,92 @@
 [
   {
     "status": "next",
+    "title": "Girl, Woman, Other",
+    "author": "Bernardine Evaristo",
+    "year": "2020"
+  },
+  {
+    "status": "reading",
+    "title": "Learning Chaos Engineering: Discovering and Overcoming System Weaknesses Through Experimentation",
+    "author": "Russ Miles",
+    "year": "2020"
+  },
+  {
+    "status": "reading",
     "title": "Notes From a Small Island",
     "author": "Bill Bryson",
     "year": "2020"
   },
   {
-    "status": "reading",
-    "title": "Not That Bad",
+    "status": "read",
+    "title": "Not That Bad: Dispatches from Rape Culture",
     "author": "Roxane Gay",
     "year": "2020"
   },
   {
     "status": "read",
-    "title": "Reincarnation Blues",
-    "author": "Michael Poore",
-    "year": "2019"
+    "title": "How to Be an Antiracist",
+    "author": "Ibram X. Kendi",
+    "year": "2020"
   },
   {
-    "status": "read",
-    "title": "Reincarnation Blues",
-    "author": "Michael Poore",
+    "status": "dropped",
+    "title": "The Nordic Theory of Everything: In Search of a Better Life",
+    "author": "Anu Partanen",
     "year": "2020"
   },
   {
     "status": "read",
-    "title": "Reincarnation Blues",
-    "author": "Michael Poore",
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "year": "2020"
+  },
+  {
+    "status": "read",
+    "title": "The Science of Interstellar",
+    "author": "Kip Thorne",
+    "year": "2020"
+  },
+  {
+    "status": "read",
+    "title": "Calypso",
+    "author": "David Sedaris",
+    "year": "2020"
+  },
+  {
+    "status": "read",
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "year": "2019"
+  },
+  {
+    "status": "read",
+    "title": "Why We Sleep: The New Science of Sleep and Dreams",
+    "author": "Matthew Walker",
+    "year": "2019"
+  },
+  {
+    "status": "read",
+    "title": "Site Reliability Engineering: How Google Runs Production Systems",
+    "author": "Niall Richard Murphy, Betsy Beyer, Chris Jones, Jennifer Petoff",
+    "year": "2019"
+  },
+  {
+    "status": "read",
+    "title": "White Fragility: Why It's So Hard for White People to Talk About Racism",
+    "author": "Robin DiAngelo",
+    "year": "2019"
+  },
+  {
+    "status": "read",
+    "title": "Brotopia: Breaking Up the Boys' Club of Silicon Valley",
+    "author": "Emily Chang",
+    "year": "2019"
+  },
+  {
+    "status": "read",
+    "title": "Relationships",
+    "author": "The School of Life",
     "year": "2019"
   }
 ]
