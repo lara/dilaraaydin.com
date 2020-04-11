@@ -1,14 +1,32 @@
 [
   {
-    "status": "reading",
+    "status": "next",
     "title": "Notes From a Small Island",
     "author": "Bill Bryson",
     "year": "2020"
   },
   {
-    "status": "read",
+    "status": "reading",
     "title": "Not That Bad",
     "author": "Roxane Gay",
     "year": "2020"
+  },
+  {
+    "status": "read",
+    "title": "Reincarnation Blues",
+    "author": "Michael Poore",
+    "year": "2019"
+  },
+  {
+    "status": "read",
+    "title": "Reincarnation Blues",
+    "author": "Michael Poore",
+    "year": "2020"
+  },
+  {
+    "status": "read",
+    "title": "Reincarnation Blues",
+    "author": "Michael Poore",
+    "year": "2019"
   }
 ]

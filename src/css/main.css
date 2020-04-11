@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "bookshelf.css";
 @import "music.css";
 
 :root {
@@ -19,13 +20,14 @@ body {
 
   background: var(--background);
   color: var(--foreground);
-  padding-inline-start: var(--site-spacing);
-  padding-inline-end: var(--site-spacing);
 
   font-family: system-ui;
 
   display: flex;
   align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 body > * {
@@ -34,13 +36,17 @@ body > * {
 }
 
 body > main {
-  margin-inline-start: calc(var(--site-spacing) * 3);
   flex: 1 0 0;
+  padding-inline-end: var(--site-spacing);
+  margin-block-start: 4em;
+  margin-inline-start: 6em;
 }
 
 body > nav {
   position: sticky;
   top: 0px;
+  padding-inline-start: var(--site-spacing);
+  padding-inline-end: var(--site-spacing);
 }
 
 body > nav ul {

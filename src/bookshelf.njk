@@ -6,10 +6,16 @@ eleventyNavigation:
   order: 2
 ---
 
-<ul>
-{% for book in books %}
-    <li>
-      {{ book.title }}
-    </li>
-{% endfor %}
-</ul>
+<div class="bookshelf">
+  {% for group in books | groupby("year") | list | reverse %}
+    <h3>{{ group.key }}</h3>
+    <ul>
+    {% for book in group.value %}
+        <li>
+          <p class="status">{{ book.status }}</p>  
+          <p><span class="title">{{ book.title }}</span> by {{ book.author }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</div>

@@ -1,0 +1,24 @@
+.bookshelf h3 {
+  text-align: center;
+  margin-block-end: 2em;
+}
+
+.bookshelf ul {
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+.bookshelf li {
+  display: flex;
+  margin: 2em 0;
+}
+
+.bookshelf .status {
+  min-width: 100px;
+  margin-inline-end: 2em;
+  text-align: end;
+}
+
+.bookshelf .title {
+  font-weight: bold;
+}
