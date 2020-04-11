@@ -1,0 +1,27 @@
+.blog {
+  --spacing-between-posts: 2em;
+  --spacing-inside-posts: 0.5em;
+}
+
+.blog > * + * {
+  margin-block-start: var(--spacing-between-posts);
+}
+
+.blog article > * + * {
+  margin-block-start: var(--spacing-inside-posts);
+}
+
+.blog article h2 a {
+  text-decoration: none;
+  display: block;
+}
+
+.blog article > time {
+  display: block;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.blog article > .excerpt {
+  font-size: 0.9em;
+}

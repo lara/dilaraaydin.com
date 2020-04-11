@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "blog.css";
 @import "bookshelf.css";
 @import "music.css";
 
@@ -75,4 +76,8 @@ main > * + * {
 
 main p {
   line-height: 1.6;
+}
+
+main a {
+  color: inherit;
 }

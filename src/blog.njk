@@ -5,10 +5,15 @@ eleventyNavigation:
   key: blog
   order: 1
 ---
+<div class="blog">
+  {% for blogPost in collections.posts %}
+    <article>
+      <h2><a href="{{ blogPost.url }}">{{ blogPost.data.title }}</a></h2>
+      <time datetime="{{ blogPost.date.toISOString() }}">{{ blogPost.date | formatDate("yyyy-MM-dd") }}</time>
 
-{% for blogPost in collections.posts %}
-  <article>
-    <a href="{{ blogPost.url }}">{{ blogPost.data.title }}</a>
-    
-  </article>
-{% endfor %}
+      <div class="excerpt">
+        {{ blogPost | excerpt | safe }}
+      </div>
+    </article>
+  {% endfor %}
+</div>

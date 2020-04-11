@@ -28,7 +28,7 @@
       </li>
 
       {%- for item in (collections.all | eleventyNavigation) %}
-        <li{% if item.url == page.url %} class="active"{% endif %}>
+        <li{% if page.url.startsWith(item.url) %} class="active"{% endif %}>
           <a href="{{ item.url | url }}">{{ item.title }}</a>
         </li>
       {%- endfor %}
@@ -40,5 +40,6 @@
   </main>
 
   <script src="/js/iframe-loader.js"></script>
+  <script src="/js/locale-timestamps.js"></script>
 </body>
 </html>
