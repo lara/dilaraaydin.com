@@ -65,6 +65,10 @@ body > nav a {
   padding-block-end: var(--spacing);
 }
 
+body nav .active {
+  font-weight: bolder;
+}
+
 main > * + * {
   margin-block-start: 2em;
 }
