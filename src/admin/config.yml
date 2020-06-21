@@ -16,5 +16,17 @@ collections:
     preview_path: "blog/{{slug}}"
     create: true
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+      - label: "Post Tags"
+        name: "postTags"
+        widget: "list"
+      - label: "Gallery"
+        name: "gallery"
+        widget: "list"
+        summary: "{{fields.image}}"
+        field: { label: Image, name: image, widget: image }
