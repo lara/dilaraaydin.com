@@ -26,7 +26,13 @@ collections:
         name: "postTags"
         widget: "list"
       - label: "Gallery"
-        name: "gallery"
+        name: "photos"
         widget: "list"
         summary: "{{fields.image}}"
-        field: { label: Image, name: image, widget: image }
+        fields:
+          - label: "Image"
+            name: "image"
+            widget: "image"
+          - label: "Title"
+            name: "imageTitle"
+            widget: "string"
