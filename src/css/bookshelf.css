@@ -26,3 +26,13 @@ main.bookshelf {
 .bookshelf .title {
   font-weight: bold;
 }
+
+@media (max-width: 900px) {
+  .bookshelf .status {
+    display: none;
+  }
+
+  .bookshelf ul {
+    padding-inline-start: 0;
+  }
+}
