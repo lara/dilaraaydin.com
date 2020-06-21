@@ -23,10 +23,6 @@ body {
   color: var(--foreground);
 
   font-family: system-ui;
-
-  display: flex;
-  align-items: flex-start;
-  max-width: 1200px;
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
 }
@@ -34,26 +30,6 @@ body {
 body > * {
   padding-block-start: calc(var(--site-spacing) * 1.5);
   padding-block-end: calc(var(--site-spacing) * 1.5);
-}
-
-body > main {
-  flex: 1 0 0;
-  padding-inline-end: var(--site-spacing);
-  margin-block-start: 4em;
-  margin-inline-start: 6em;
-}
-
-body > nav {
-  position: sticky;
-  top: 0px;
-  padding-inline-start: var(--site-spacing);
-  padding-inline-end: var(--site-spacing);
-}
-
-body > nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 body > nav a {
@@ -80,4 +56,55 @@ main p {
 
 main a {
   color: inherit;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+body > main {
+  flex: 1 0 0;
+  padding-inline-end: var(--site-spacing);
+  margin-block-start: 4em;
+  max-width: 48em;
+}
+
+body > nav {
+  position: sticky;
+  top: 0px;
+  padding-inline-start: var(--site-spacing);
+  padding-inline-end: var(--site-spacing);
+}
+
+body > nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  body {
+    --site-spacing: 2em;
+
+    display: block;
+  }
+
+  body > nav {
+    background-color: var(--background);
+    z-index: 1;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+    margin-top: 2em;
+  }
+
+  body > nav ul {
+    display: flex;
+  }
+
+  body > nav ul > * + * {
+    margin-inline-start: 2em;
+  }
 }
