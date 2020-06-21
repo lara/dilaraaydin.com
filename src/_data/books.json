@@ -7,13 +7,31 @@
   },
   {
     "status": "reading",
+    "title": "Gödel, Escher, Bach: an Eternal Golden Braid",
+    "author": "Douglas R. Hofstadter",
+    "year": "2020"
+  },
+  {
+    "status": "reading",
+    "title": "Production-Ready Microservices: Building Standardized Systems Across an Engineering Organization",
+    "author": "Susan Fowler",
+    "year": "2020"
+  },
+  {
+    "status": "read",
+    "title": "Consciousness: A Very Short Introduction",
+    "author": "Susan Blackmore",
+    "year": "2020"
+  },
+  {
+    "status": "read",
     "title": "Learning Chaos Engineering: Discovering and Overcoming System Weaknesses Through Experimentation",
     "author": "Russ Miles",
     "year": "2020"
   },
   {
-    "status": "reading",
-    "title": "The Quantum Astrologer's Handbook: A history of the Renaissance mathematics that birthed imaginary numbers, probability, and the new physics of the universe",
+    "status": "read",
+    "title": "The Quantum Astrologer's Handbook: A history of the Renaissance Mathematics That Birthed Imaginary Numbers, Probability, and the New Physics of the Universe",
     "author": "Michael Brooks",
     "year": "2020"
   },
