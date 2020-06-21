@@ -1,11 +1,5 @@
 [
   {
-    "status": "next",
-    "title": "Girl, Woman, Other",
-    "author": "Bernardine Evaristo",
-    "year": "2020"
-  },
-  {
     "status": "reading",
     "title": "Gödel, Escher, Bach: an Eternal Golden Braid",
     "author": "Douglas R. Hofstadter",
@@ -36,7 +30,7 @@
     "year": "2020"
   },
   {
-    "status": "dropped",
+    "status": "read",
     "title": "Notes From a Small Island",
     "author": "Bill Bryson",
     "year": "2020"
@@ -54,7 +48,7 @@
     "year": "2020"
   },
   {
-    "status": "dropped",
+    "status": "read",
     "title": "The Nordic Theory of Everything: In Search of a Better Life",
     "author": "Anu Partanen",
     "year": "2020"
