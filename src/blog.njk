@@ -9,7 +9,7 @@ title: Lara Aydın
       <time datetime="{{ blogPost.date.toISOString() }}">{{ blogPost.date | formatDate("yyyy-MM-dd") }}</time>
 
       <div class="excerpt">
-        {{ blogPost | excerpt | safe }}
+        {% excerpt blogPost %}
       </div>
     </article>
   {% endfor %}
