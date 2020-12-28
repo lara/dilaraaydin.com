@@ -30,10 +30,13 @@ collections:
   - name: "photography"
     label: "Photos"
     folder: "src/photography"
+    slug: "{{slug}}"
+    preview_path: "photography/{{slug}}"
+    create: true
     fields:
-      - label: "Image"
-        name: "image"
-        widget: "image"
       - label: "Title"
         name: "imageTitle"
         widget: "string"
+      - label: "Image"
+        name: "image"
+        widget: "image"
