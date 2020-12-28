@@ -1,10 +1,10 @@
 backend:
   name: git-gateway
-  repo: lara/dilaraaydin.com
+  repo: lara/laradecoco.dev
   branch: master
 
 publish_mode: editorial_workflow
-site_url: "https://dilaraaydin.com"
+site_url: "https://laradecoco.dev"
 media_folder: "src/images"
 public_folder: "/images"
 
