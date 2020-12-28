@@ -3,23 +3,21 @@ main.bookshelf {
 }
 
 .bookshelf h3 {
-  text-align: center;
-  margin-block-end: 2em;
+  margin-block: 2em;
 }
 
 .bookshelf ul {
-  max-width: max-content;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: var(--breathing-room);
+  padding: 0;
 }
 
 .bookshelf li {
-  display: flex;
-  margin: 2em 0;
+  display: contents;
 }
 
 .bookshelf .status {
-  min-width: 100px;
-  margin-inline-end: 2em;
   text-align: end;
 }
 

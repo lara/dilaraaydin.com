@@ -16,9 +16,9 @@
         <a href="/">
           <span class="visually-hidden">home</span>
           <svg aria-hidden="true" width="21" height="23" viewBox="0 0 21 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path 
-              d="M18 22H1V10L9.5 2L18 10V22Z" 
-              stroke="currentColor" 
+            <path
+              d="M18 22H1V10L9.5 2L18 10V22Z"
+              stroke="currentColor"
               {% if page.url == "/" %}
                 fill="currentColor"
               {% endif %}
@@ -30,7 +30,7 @@
 
       {%- for item in (collections.all | eleventyNavigation) %}
         <li{% if page.url.startsWith(item.url) %} class="active"{% endif %}>
-          <a href="{{ item.url | url }}">{{ item.title }}</a>
+          <a href="{{ item.url | url }}" data-text="{{ item.title }}">{{ item.title }}</a>
         </li>
       {%- endfor %}
     </ul>
