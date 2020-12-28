@@ -2,7 +2,9 @@
 title: Preparing for the CKA Certification Exam
 postTags:
   - engineering
+date: 2020-12-27
 ---
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non nisl dui. Mauris ipsum nibh, sagittis in sapien nec, fringilla luctus leo. Curabitur sollicitudin nunc a nibh eleifend semper. Nullam vel arcu ligula. Suspendisse potenti. Nullam egestas mi risus, a dapibus ipsum porta eget. Cras vehicula molestie nisl, in feugiat lacus finibus id. Duis id orci finibus, varius neque non, ornare odio.
 
 Sed vulputate rhoncus ipsum feugiat finibus. Duis aliquet consequat ipsum, elementum rhoncus justo pharetra eget. Praesent malesuada urna ac dolor aliquam porttitor. Etiam convallis pharetra ante, a maximus diam porttitor non. Integer auctor, lectus vel consequat eleifend, nibh velit euismod ante, sed porttitor lacus eros et dolor. Cras sagittis auctor purus a tempus. Integer hendrerit egestas enim, non elementum urna molestie sit amet. Suspendisse dignissim leo molestie ligula mollis, in congue arcu pretium. Proin tempor orci non dolor egestas, id tempus ante imperdiet. Quisque gravida, justo a consequat hendrerit, odio urna finibus nisi, sed molestie metus arcu nec nulla. Integer venenatis quam sit amet dui pellentesque porta. Suspendisse scelerisque sem sit amet enim dictum ornare. Integer varius sodales lacus, at aliquam elit porttitor in. Suspendisse potenti. Aliquam varius, erat et convallis vestibulum, libero odio venenatis ex, nec pretium odio erat at sapien.
