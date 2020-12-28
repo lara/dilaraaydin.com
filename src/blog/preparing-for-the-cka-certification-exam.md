@@ -2,7 +2,7 @@
 title: Preparing for the CKA Certification Exam
 postTags:
   - engineering
-date: 2020-12-27
+date: 2020-12-27T20:00:00.000Z
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non nisl dui. Mauris ipsum nibh, sagittis in sapien nec, fringilla luctus leo. Curabitur sollicitudin nunc a nibh eleifend semper. Nullam vel arcu ligula. Suspendisse potenti. Nullam egestas mi risus, a dapibus ipsum porta eget. Cras vehicula molestie nisl, in feugiat lacus finibus id. Duis id orci finibus, varius neque non, ornare odio.
