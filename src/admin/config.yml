@@ -4,8 +4,8 @@ backend:
   branch: master
 
 site_url: "https://laradecoco.dev"
-media_folder: "src/images"
-public_folder: "/images"
+media_folder: "src/photography/images"
+public_folder: "/photography/images"
 
 collections:
   - name: "blog"
@@ -27,14 +27,13 @@ collections:
       - label: "Date"
         name: "date"
         widget: "datetime"
-      - label: "Gallery"
-        name: "photos"
-        widget: "list"
-        summary: "{{fields.image}}"
-        fields:
-          - label: "Image"
-            name: "image"
-            widget: "image"
-          - label: "Title"
-            name: "imageTitle"
-            widget: "string"
+  - name: "photography"
+    label: "Photos"
+    folder: "src/photography"
+    fields:
+      - label: "Image"
+        name: "image"
+        widget: "image"
+      - label: "Title"
+        name: "imageTitle"
+        widget: "string"

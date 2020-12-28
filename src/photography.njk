@@ -1,0 +1,9 @@
+---
+layout: site.njk
+title: Lara Aydın
+---
+<div class="photography">
+  {% for photo in collections.photos %}
+    <img src="{{ photo.data.image }}" alt="{{ photo.data.title }}"/>
+  {% endfor %}
+</div>

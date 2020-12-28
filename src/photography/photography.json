@@ -1,0 +1,7 @@
+{
+  "tags": ["photos"],
+  "layout": "site.njk",
+  "eleventyNavigation": {
+    "parent": "Photography"
+  }
+}
