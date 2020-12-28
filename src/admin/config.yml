@@ -35,7 +35,7 @@ collections:
     create: true
     fields:
       - label: "Title"
-        name: "imageTitle"
+        name: "title"
         widget: "string"
       - label: "Image"
         name: "image"
