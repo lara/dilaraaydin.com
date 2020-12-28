@@ -9,7 +9,7 @@ public_folder: "/photography/images"
 
 collections:
   - name: "blog"
-    label: "Posts"
+    label: "Post"
     folder: "src/blog"
     slug: "{{slug}}"
     preview_path: "blog/{{slug}}"
@@ -28,7 +28,7 @@ collections:
         name: "date"
         widget: "datetime"
   - name: "photography"
-    label: "Photos"
+    label: "Photo"
     folder: "src/photography"
     slug: "{{slug}}"
     preview_path: "photography/{{slug}}"
