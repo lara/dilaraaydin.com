@@ -1,0 +1,17 @@
+.photography {
+  --gap: 0.2em;
+}
+
+.photography .grid-item {
+  opacity: 0.001;
+  transition: all 400ms ease-in-out;
+}
+
+.photography.loaded .grid-item {
+  opacity: 1 !important;
+}
+
+.photography .grid-item {
+  margin: var(--gap);
+  width: calc(50% - calc(var(--gap) * 2));
+}

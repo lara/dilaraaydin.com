@@ -5,8 +5,9 @@ eleventyNavigation:
   key: photography
   order: 3
 ---
-<div class="photography">
+
+<div class="photography masonry">
   {% for photo in collections.photos %}
-    <img src="{{ photo.data.image }}" alt="{{ photo.data.alt }}"/>
+    <img class="grid-item" src="{{ photo.data.image }}" alt="{{ photo.data.alt }}"/>
   {% endfor %}
 </div>

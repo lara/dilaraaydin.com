@@ -3,6 +3,7 @@
 @import "blog.css";
 @import "bookshelf.css";
 @import "music.css";
+@import "photography.css";
 
 :root {
   --foreground: black;
