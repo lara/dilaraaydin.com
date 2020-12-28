@@ -10,12 +10,18 @@ eleventyNavigation:
   {% for group in books | groupby("year") | list | reverse %}
     <h3>{{ group.key }}</h3>
     <ul>
-    {% for book in group.value %}
+      {% for book in group.value %}
         <li>
           <p class="status">{{ book.status }}</p>
           <p><span class="title">{{ book.title }}</span> by {{ book.author }}</p>
         </li>
-    {% endfor %}
+      {% endfor %}
+
+      {# Fake book to make spacing the same on all years #}
+      <li aria-hidden="true">
+        <p style="opacity: 0; height: 0;" class="status">reading</p>
+        <p style="opacity: 0; height: 0;"><span class="title">n/a</p>
+      </li>
     </ul>
   {% endfor %}
 </div>
