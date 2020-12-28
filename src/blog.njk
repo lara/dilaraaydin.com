@@ -3,7 +3,7 @@ layout: site.njk
 title: Lara Aydın
 ---
 <div class="blog">
-  {% for blogPost in collections.posts %}
+  {% for blogPost in collections.posts | reverse %}
     <article>
       <h2><a href="{{ blogPost.url }}">{{ blogPost.data.title }}</a></h2>
       <time datetime="{{ blogPost.date.toISOString() }}">{{ blogPost.date | formatDate("yyyy-MM-dd") }}</time>
