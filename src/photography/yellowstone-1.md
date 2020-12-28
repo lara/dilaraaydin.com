@@ -1,6 +1,7 @@
 ---
-title: "yellowstone-1"
+title: yellowstone-1
 date: 2020-12-26T20:00:00.000Z
+imageTitle: Yellowstone
 image: /photography/images/571b183a716d63dfe00c84d4151317f8.jpg
 ---
 
