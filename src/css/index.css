@@ -1,0 +1,7 @@
+.about {
+  font-size: 0.9rem;
+}
+
+.about > * + * {
+  margin-block-start: calc(var(--breathing-room) / 2);
+}
