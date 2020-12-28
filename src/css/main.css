@@ -7,7 +7,7 @@
 :root {
   --foreground: black;
   --background: white;
-  --theme-color: #558eac;
+  --theme-color: rgb(170, 142, 214);
   --breathing-room: 2em;
   font-size: 18px;
 }
