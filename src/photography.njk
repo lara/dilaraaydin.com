@@ -7,6 +7,6 @@ eleventyNavigation:
 ---
 <div class="photography">
   {% for photo in collections.photos %}
-    <img src="{{ photo.data.image }}" alt="{{ photo.data.title }}"/>
+    <img src="{{ photo.data.image }}" alt="{{ photo.data.alt }}"/>
   {% endfor %}
 </div>
