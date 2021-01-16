@@ -4,6 +4,7 @@
 @import "bookshelf.css";
 @import "music.css";
 @import "photography.css";
+@import "iyi-ki-dogdun-asko.css";
 
 :root {
   --foreground: black;
@@ -107,6 +108,10 @@ body > nav a::after {
 
 body > nav li.active a {
   font-weight: bold;
+}
+
+body > nav li:last-child {
+  color: rgb(170, 142, 214);
 }
 
 @media (max-width: 900px) {
