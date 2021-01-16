@@ -35,9 +35,9 @@ body {
   margin-top: -8.33333333px;
   width: 5px;
   height: 35px;
-  transform: translateY(-100vh);
+  transform: translateX(var(--shift-x)) translateY(-100vh);
   backface-visibility: hidden;
-  animation: in 500ms 6s ease-out forwards;
+  animation: in 500ms calc(6s + var(--animation-delay)) ease-out forwards;
 }
 .velas:after,
 .velas:before {
@@ -67,6 +67,9 @@ body {
   margin-left: -2.6px;
   width: 6.66666667px;
   height: 18px;
+}
+.fuego {
+  animation-delay: var(--animation-delay) !important;
 }
 .fuego:nth-child(1) {
   animation: fuego 2s 6.5s infinite;
@@ -103,7 +106,7 @@ body {
 
 @keyframes in {
   to {
-    transform: translateY(0);
+    transform: translateX(var(--shift-x)) translateY(0);
   }
 }
 
