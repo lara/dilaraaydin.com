@@ -4,6 +4,7 @@
 @import "bookshelf.css";
 @import "music.css";
 @import "photography.css";
+@import "special.css";
 
 :root {
   --foreground: black;
@@ -68,7 +69,7 @@ body > main {
 body > nav {
   position: sticky;
   top: 0px;
-  background: rgba(43, 43, 43, 0.9);
+  background: rgba(43, 43, 43, 1);
   backdrop-filter: blur(3px);
   z-index: 1;
 }
