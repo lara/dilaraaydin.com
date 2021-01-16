@@ -8,7 +8,15 @@ body {
 }
 
 body {
-  background: #ee9ca7;
+  background-image: url("/images/IMG_9918.jpeg") !important;
+  background-size: cover !important;
+  background-position: bottom center !important;
+  background-color: none !important;
+}
+
+body > nav {
+  background: none !important;
+  backdrop-filter: none !important;
 }
 
 #cake {
