@@ -64,6 +64,7 @@ body > main {
   flex: 1 0 0;
   margin-block-start: 4em;
   max-width: 48em;
+  padding: 0 var(--breathing-room);
 }
 
 body > nav {
@@ -72,6 +73,7 @@ body > nav {
   background: rgba(43, 43, 43, 0.9);
   backdrop-filter: blur(3px);
   z-index: 1;
+  padding: 0 var(--breathing-room);
 }
 
 body > nav ul {
@@ -144,6 +146,6 @@ body > nav li:last-child {
   }
 
   body > nav ul > * + * {
-    margin-inline-start: 2em;
+    margin-inline-start: 1em;
   }
 }
