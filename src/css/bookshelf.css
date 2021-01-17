@@ -13,6 +13,12 @@ main.bookshelf {
   padding: 0;
 }
 
+@media (max-width: 800px) {
+  .bookshelf ul {
+    grid-template-columns: 1fr;
+  }
+}
+
 .bookshelf li {
   display: contents;
 }
