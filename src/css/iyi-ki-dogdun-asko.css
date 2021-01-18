@@ -8,12 +8,12 @@ body {
 }
 
 body {
-  background-image: url("/images/IMG_9918.jpeg") !important;
+  /* background-image: url("/images/IMG_9918.jpeg") !important;
   background-size: cover !important;
   background-position: bottom center !important;
   background-attachment: fixed !important;
   background-repeat: no-repeat !important;
-  background-color: none !important;
+  background-color: none !important; */
 }
 
 body > nav {
