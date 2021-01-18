@@ -8,35 +8,38 @@
 
 :root {
   --foreground: black;
-  --background: white;
-  --theme-color: rgb(170, 142, 214);
+  --background: rgb(245, 243, 235);
+  --purple: rgb(170, 142, 214);
+  --red: rgb(165, 32, 21);
+  --mint: rgb(240, 240, 232);
+  --theme-main: var(--purple);
   --breathing-room: 2rem;
   font-size: 18px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground: #eee;
+    --foreground: rgb(245, 243, 235);
     --background: rgb(43, 43, 43);
+    --theme-main: var(--purple);
   }
 }
 
 body {
-  --site-spacing: 4em;
-
   background: var(--background);
   color: var(--foreground);
 
   font-family: system-ui;
   font-display: swap;
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.725;
   text-rendering: geometricPrecision;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   max-width: 48rem;
   margin-right: auto;
   margin-left: auto;
@@ -51,11 +54,15 @@ body > nav {
   backdrop-filter: blur(3px);
   z-index: 1;
 
-  padding-block-start: var(--breathing-room);
-  padding-block-end: var(--breathing-room);
+  padding: var(--breathing-room);
 
   letter-spacing: 0.02em;
   font-size: 0.8rem;
+  display: flex;
+}
+
+body > nav .nav-sans-home {
+  display: flex;
 }
 
 body > nav ul {
@@ -64,19 +71,17 @@ body > nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  line-height: 15px;
+  line-height: 2rem;
+  margin-inline-start: calc(var(--breathing-room) / -2);
 }
 
 body > nav li.active a {
-  font-weight: bold;
-}
-
-body > nav li:last-child {
-  color: rgb(170, 142, 214);
+  color: var(--theme-main);
 }
 
 body > nav a {
   text-decoration: none;
+  font-weight: bold;
 
   color: inherit;
   display: block;
@@ -85,7 +90,8 @@ body > nav a {
   flex-direction: column;
   align-items: center;
 
-  padding-inline-start: var(--breathing-room);
+  padding-inline-start: calc(var(--breathing-room) / 2);
+  padding-inline-end: calc(var(--breathing-room) / 2);
 }
 
 body > nav a::after {
@@ -99,17 +105,14 @@ body > nav a::after {
   display: block;
 }
 
-body > main {
-  min-height: 85%;
-  flex: 1 0 0;
-  margin-block-start: 4em;
-  /* max-width: 48em; */
-  padding: 0 var(--breathing-room);
-  margin-block-start: unset;
-  /* padding-inline-start: var(--site-spacing); */
+body > nav svg {
+  width: 2em;
+  height: auto;
+}
 
-  padding-top: var(--breathing-room);
-  padding-bottom: var(--breathing-room);
+body > main {
+  flex: 1 0 0;
+  padding: var(--breathing-room);
 }
 
 main > * + * {
@@ -122,37 +125,8 @@ main p {
 
 main a {
   text-decoration: none;
-  color: var(--theme-color);
+  color: var(--purple);
   font-weight: bold;
-}
-
-@media (max-width: 900px) {
-  :root {
-    font-size: 14px;
-  }
-
-  body {
-    --site-spacing: 2em;
-
-    display: block;
-  }
-
-  body > nav {
-    background-color: var(--background);
-    z-index: 1;
-    padding-block-start: 1em;
-    padding-block-end: 1em;
-    margin-top: 2em;
-  }
-
-  body > nav ul {
-    display: flex;
-    align-items: center;
-  }
-
-  body > nav ul > * + * {
-    margin-inline-start: 1em;
-  }
 }
 
 body > footer {
@@ -160,4 +134,51 @@ body > footer {
   color: #666;
   text-align: center;
   font-size: 11px;
+}
+
+@media (max-width: 900px) {
+  :root {
+    font-size: 14px;
+  }
+
+  body > nav {
+    background-color: var(--background);
+    z-index: 1;
+    padding: var(--breathing-room) 0;
+  }
+
+  body > nav .nav-sans-home {
+    margin: 0;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 1em;
+  }
+
+  body > nav ul {
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+    margin-inline-start: 0;
+  }
+
+  body > nav ul li {
+    flex-shrink: 0;
+  }
+
+  body > nav ul > * + * {
+    margin-inline-start: 1em;
+  }
+
+  body > nav li.active a {
+    font-weight: bolder;
+  }
+
+  body > nav a {
+    padding: 0;
+    font-weight: bold;
+  }
+
+  body > main {
+    padding: 0;
+  }
 }

@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://use.typekit.net/mhk0ubd.css">
+  <link rel="stylesheet" href="https://use.typekit.net/mhk0ubd.css">
   <link rel="icon" type="image/png" href="/images/favicon.png" sizes="64x64,16x16,32x32" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
@@ -28,11 +30,13 @@
         </a>
       </li>
 
-      {%- for item in (collections.all | eleventyNavigation) %}
-        <li{% if page.url.startsWith(item.url) %} class="active"{% endif %}>
-          <a href="{{ item.url | url }}" data-text="{{ item.title }}">{{ item.title }}</a>
-        </li>
-      {%- endfor %}
+      <div class="nav-sans-home">
+        {%- for item in (collections.all | eleventyNavigation) %}
+          <li{% if page.url.startsWith(item.url) %} class="active"{% endif %}>
+            <a href="{{ item.url | url }}" data-text="{{ item.title }}">{{ item.title }}</a>
+          </li>
+        {%- endfor %}
+      </div>
     </ul>
   </nav>
 
