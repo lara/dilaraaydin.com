@@ -1,5 +1,23 @@
 [
   {
+    "status": "next",
+    "title": "Gödel, Escher, Bach: an Eternal Golden Braid",
+    "author": "Douglas Hofstadter",
+    "year": "2021"
+  },
+  {
+    "status": "next",
+    "title": "Everyone Died And So I Got A Dog",
+    "author": "Emily Dean",
+    "year": "2021"
+  },
+  {
+    "status": "next",
+    "title": "Intimations",
+    "author": "Zadie Smith",
+    "year": "2021"
+  },
+  {
     "status": "reading",
     "title": "Stories of Modern Technology Failures and Cognitive Engineering Successes",
     "author": "Nancy J. Cooke and Francis T. Durso",
