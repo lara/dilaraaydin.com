@@ -2,10 +2,6 @@ main.bookshelf {
   flex: initial;
 }
 
-.bookshelf h3 {
-  margin-block: 2em;
-}
-
 .bookshelf ul {
   display: grid;
   grid-template-columns: max-content 1fr;

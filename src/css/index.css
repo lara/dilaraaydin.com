@@ -1,11 +1,8 @@
-.about {
-  font-size: 0.9rem;
-}
-
-.about h3 {
-  margin-block: 2em;
-}
-
 .about > * + * {
   margin-block-start: calc(var(--breathing-room) / 2);
+}
+
+.links > a {
+  padding: calc(var(--breathing-room) / 2);
+  font-size: 1.5rem;
 }
