@@ -7,18 +7,36 @@
   },
   {
     "status": "next",
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "year": "2021"
+  },
+  {
+    "status": "next",
+    "title": "Man's Search for Meaning",
+    "author": "Viktor Frankl",
+    "year": "2021"
+  },
+  {
+    "status": "reading",
+    "title": "Open Water",
+    "author": "Caleb Azumah Nelson",
+    "year": "2021"
+  },
+  {
+    "status": "read",
+    "title": "The Houseguest: And Other Stories",
+    "author": "Amparo Dávila",
+    "year": "2021"
+  },
+  {
+    "status": "read",
     "title": "Everyone Died And So I Got A Dog",
     "author": "Emily Dean",
     "year": "2021"
   },
   {
-    "status": "next",
-    "title": "Intimations",
-    "author": "Zadie Smith",
-    "year": "2021"
-  },
-  {
-    "status": "reading",
+    "status": "read",
     "title": "Stories of Modern Technology Failures and Cognitive Engineering Successes",
     "author": "Nancy J. Cooke and Francis T. Durso",
     "year": "2021"
