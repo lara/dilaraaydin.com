@@ -56,7 +56,7 @@ body > nav {
   z-index: 1;
 
   padding: var(--breathing-room);
-
+  font: 0.9em "proxima-nova", system-ui;
   letter-spacing: 0.02em;
   font-size: 0.8rem;
   display: flex;
