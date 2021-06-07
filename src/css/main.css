@@ -51,7 +51,7 @@ body {
 body > nav {
   position: sticky;
   top: 0px;
-  background: rgba(43, 43, 43, 0.9);
+  background: var(--background);
   backdrop-filter: blur(3px);
   z-index: 1;
 
